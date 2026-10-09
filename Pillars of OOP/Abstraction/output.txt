@@ -1,0 +1,10 @@
+Jaguar F-Type's engine has started!
+Jaguar F-Type is not moving, braking makes no sense!
+Jaguar F-Type is now at gear: 1
+Jaguar F-Type's current speed is 10
+Jaguar F-Type is now at gear: 2
+Jaguar F-Type's current speed is 20
+Jaguar F-Type is now braking and the current speed is 10
+Jaguar F-Type is now at gear: 1
+Jaguar F-Type is now braking and the current speed is 0
+Jaguar F-Type's engine is now off!
