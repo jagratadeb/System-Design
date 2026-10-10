@@ -1,0 +1,10 @@
+Ford Mustang : Engine started.
+Ford Mustang : Accelerating to 20 km/h
+Ford Mustang : Accelerating to 40 km/h
+Ford Mustang : Braking! Speed is now 20 km/h
+Ford Mustang : Engine turned off.
+Tesla Model S : Engine started.
+Tesla Model S : Accelerating to 15 km/h. Battery at 90%.
+Tesla Model S : Accelerating to 30 km/h. Battery at 80%.
+Tesla Model S : Regenerative braking! Speed is now 15 km/h. Battery at 80%.
+Tesla Model S : Engine turned off.
