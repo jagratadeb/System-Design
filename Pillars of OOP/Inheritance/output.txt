@@ -1,0 +1,10 @@
+Ford's Mustang : Engine has started.
+Ford Mustang : Shifted to gear 1
+Ford's Mustang current speed: 10
+Ford Mustang braking! Speed is now: 0
+Ford's Mustang : Engine has turned off.
+Tesla Model-S : Battery fully charged!
+Tesla's Model-S : Engine has started.
+Tesla's Model-S current speed: 10
+Tesla Model-S braking! Speed is now: 0
+Tesla's Model-S : Engine has turned off.
