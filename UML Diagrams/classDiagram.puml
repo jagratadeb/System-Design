@@ -1,16 +1,26 @@
 @startuml
 
 abstract class Student {
-  +id: int
-  +name: String
-  +study()
+    +id: int
+    #name: String
+    -email: String
+    {abstract} +study(): void
+    +getDetails(): String
+}
+
+class EngineeringStudent {
+    -branch: String
+    +study(): void
+    +buildProject(): void
 }
 
 class Course {
-  +courseId: int
-  +courseName: String
+    +courseId: int
+    +courseName: String
+    +getCourseDetails(): String
 }
 
+Student <|-- EngineeringStudent : inherits
 Student --> Course : enrolls in
 
 @enduml

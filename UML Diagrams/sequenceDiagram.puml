@@ -1,9 +1,29 @@
 @startuml
 
 actor User
-participant System
+participant "Login UI" as UI
+participant "Auth Service" as Auth
+database "User Database" as DB
 
-User -> System : Login Request
-System --> User : Login Success
+User -> UI : Enter email and password
+User -> UI : Click Login
+
+UI -> Auth : authenticate(email, password)
+activate Auth
+
+Auth -> DB : Find user by email
+activate DB
+DB --> Auth : User record / Not found
+deactivate DB
+
+alt User exists and password is valid
+    Auth --> UI : Authentication successful
+    UI --> User : Display dashboard
+else Invalid credentials
+    Auth --> UI : Authentication failed
+    UI --> User : Display error message
+end
+
+deactivate Auth
 
 @enduml
