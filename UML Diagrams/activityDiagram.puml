@@ -1,0 +1,27 @@
+@startuml
+
+start
+
+:Insert card;
+:Enter PIN;
+
+while (Invalid PIN?) is (Yes)
+    :Display Invalid PIN;
+
+    if(Maximum attempts reached?) then (Yes)
+        :Block Card;
+        :Eject Card;
+        stop
+    else (No)
+        :Re-enter PIN;
+    endif
+
+endwhile (No)
+
+:Enter Amount;
+:Dispense Cash;
+:Collect Card;
+
+stop
+
+@enduml

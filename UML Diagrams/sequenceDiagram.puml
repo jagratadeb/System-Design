@@ -1,0 +1,9 @@
+@startuml
+
+actor User
+participant System
+
+User -> System : Login Request
+System --> User : Login Success
+
+@enduml

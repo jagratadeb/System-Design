@@ -1,0 +1,16 @@
+@startuml
+
+abstract class Student {
+  +id: int
+  +name: String
+  +study()
+}
+
+class Course {
+  +courseId: int
+  +courseName: String
+}
+
+Student --> Course : enrolls in
+
+@enduml
