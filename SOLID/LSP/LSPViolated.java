@@ -80,7 +80,7 @@ class BankClient {
     public BankClient(List<Account> accounts) {
         this.accounts = accounts;
     }
-        
+
     public void processTransactions() {
         for (Account acc : accounts) {
             acc.deposit(1000);
