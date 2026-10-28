@@ -32,7 +32,8 @@ learning **low-level design** and **system design** concepts.
 ![PlantUML](https://img.shields.io/badge/PlantUML-0E6C7E?style=for-the-badge&logo=uml&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-[!IMPORTANT]
+
+> [!IMPORTANT]
 > 💬 These are the primary tools used in the repository. More tools may be added as the projects evolve.
 
 ## 🗂️ Repository Structure
