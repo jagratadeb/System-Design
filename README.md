@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 📚 Learn • 🛠️ Build • 🚀 Improve
+### Learn • Build • Improve
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PlantUML](https://img.shields.io/badge/PlantUML-0E6C7E?style=for-the-badge&logo=uml&logoColor=white)
@@ -51,14 +51,14 @@ repository.
 
 ### 1️⃣ Fundamentals of Low-Level Design & OOP
 
-- [✅] Introduction to LLD: LLD vs. HLD vs. DSA
-- [] OOP pillars: abstraction, encapsulation, inheritance, and polymorphism
-- [] Real-world OOP examples and class design
-- [] UML diagrams: class, sequence, activity, and use-case diagrams
-- [] UML dynamic relationships and notation details
-- [] SOLID: Single Responsibility Principle (SRP)
-- [] SOLID: Open/Closed Principle (OCP)
-- [] SOLID: Liskov Substitution Principle (LSP)
+✅ Introduction to LLD: LLD vs. HLD vs. DSA
+- [ ] OOP pillars: abstraction, encapsulation, inheritance, and polymorphism
+- [ ] Real-world OOP examples and class design
+- [ ] UML diagrams: class, sequence, activity, and use-case diagrams
+- [ ] UML dynamic relationships and notation details
+- [ ] SOLID: Single Responsibility Principle (SRP)
+- [ ] SOLID: Open/Closed Principle (OCP)
+- [ ] SOLID: Liskov Substitution Principle (LSP)
 - [ ] SOLID: Interface Segregation Principle (ISP)
 - [ ] SOLID: Dependency Inversion Principle (DIP)
 
